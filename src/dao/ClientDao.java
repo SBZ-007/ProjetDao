@@ -32,7 +32,7 @@ public class ClientDao {
 			Statement stmt = null;
 			return stmt;
 		} catch (SQLException e) {
-			System.out.println("Problème de connexion à la base de donnée !");
+			System.out.println("Problème de connexion à la base de donnée !!!!!");
 			e.printStackTrace();
 			Statement stmt = null;
 			return stmt;
